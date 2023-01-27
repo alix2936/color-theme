@@ -1,0 +1,32 @@
+:root {
+--brand-color: #3CB35A;
+--dark-color: #03012C;
+--mid-color: #635E79;
+--light-color: #FFFFFF;
+  }
+  
+*{
+  margin:0;
+  padding:0;
+  box-sizing;
+}
+
+body{
+background-color: var(--light-color);
+color: var(--dark-color);
+color: var(--mid-color);
+color: var(--brand-color);
+}
+
+nav{
+background:var(--brand-color)
+}
+
+h1,h2{
+color: var(--dark-color);
+color: var(--mid-color);
+}
+
+p{
+color: var(--dark-color);
+}
